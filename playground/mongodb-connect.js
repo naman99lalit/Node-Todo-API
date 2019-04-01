@@ -21,7 +21,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',(err,client)=>{
 
   db.collection('Users').insertOne({
     name:'Naman Lalit',
-    age:'19 Years',
+    age:19,
     location:'Nit Hamirpur'
   },(err,result)=>{
     if(err){
